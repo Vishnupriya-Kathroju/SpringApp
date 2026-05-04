@@ -10,6 +10,8 @@ public class DemoController {
 
 	@GetMapping("/isabadgirl")
 	public String demo() {
-		return "hii! the server is running";
+		
+		
+		return "hii! the server is running, and we are testing!";
 	}
 }
