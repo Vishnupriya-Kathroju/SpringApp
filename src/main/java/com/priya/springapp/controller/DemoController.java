@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
 	@GetMapping("/isabadgirl")
-	public String demo() {
-		
+	public String test() {
 		
 		return "hii! the server is running, and we are testing!";
 	}
